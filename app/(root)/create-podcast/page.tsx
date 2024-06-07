@@ -46,10 +46,10 @@ const CreatePodcast = () => {
           <div className=" flex flex-col gap-[30px] border-b border-black-5 pb-10">
             <FormField
               control={form.control}
-              name="podcastTittle"
+              name="username"
               render={({ field }) => (
                 <FormItem className="flex flex-col gap-2.5">
-                  <FormLabel className=" text-16 font-bold text-white-1">Username</FormLabel>
+                  <FormLabel className=" text-16 font-bold text-white-1">PodcastTittle</FormLabel>
                   <FormControl>
                     <Input className=" input-class focus-visible:ring-orange-1 " placeholder="India Mission" {...field} />
                   </FormControl>
